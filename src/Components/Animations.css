@@ -1,0 +1,18 @@
+.animationFromLeft{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft{
+    0% {
+        transform: translateY(-450%) translateX(-550%) rotate(-90deg);
+        opacity: 0;
+    }
+    80% {
+        transform: translateY(20%) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+}
